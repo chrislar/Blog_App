@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ThemeContext from './Components/ThemeContext';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <ThemeContext>
     <App />
+    </ThemeContext>
   </React.StrictMode>,
   document.getElementById('root')
 );
