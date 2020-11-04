@@ -1,11 +1,12 @@
 import React from 'react';
-import FirstImg from '../Images/madrid.jpg';
-
+import Messi1 from "../Images/messi.jpg";
 export default function ArticleImage(){
     return(
 
         <div className="article-top-image">
-            <img src={FirstImg}/> 
+            
+            <img src={Messi1}/> 
+
         </div>
 
     );

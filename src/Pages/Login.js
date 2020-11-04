@@ -1,6 +1,9 @@
   
 import React, { useState } from "react";
 import Users from '../users.json';
+import "../Style/Login.css";
+import Footer from "../Components/Footer";
+import Navigate from '../Components/Navigate';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect, useHistory } from 'react-router-dom';
 
 function Login() {
@@ -66,6 +69,9 @@ function Login() {
 
 
   return (
+
+<div>
+  <Navigate/>
     <div className="log">
       <form onSubmit={handleLogin}>
         <div className="form-group">
@@ -120,6 +126,9 @@ function Login() {
           </div>
         </div>
       </div>
+      
+    </div>
+    <Footer/>
     </div>
   );
 }

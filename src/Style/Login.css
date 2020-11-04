@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  }
+  .App{
+  display:flex !important;
+  height:100vh;
+  
+  }
+  
+  .Right{
+   padding: 0 80px; 
+   padding-top: 80px;
+  
+  }
+ 
+ 
+  .log {
+    background-color: #3E3168;
+    display:inline-block;
+    width:300px;
+    padding:20px 10px;
+    padding-bottom: 50px;
+    color:white;
+  }
+  
+  
+  
+  
+  
+  

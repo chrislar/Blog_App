@@ -1,4 +1,5 @@
 import React from 'react';
+import  '../Style/Carousel.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Slide_1 from '../Images/Liverpool.jpg';
 import Slide_2 from '../Images/madrid.jpg';
@@ -10,8 +11,9 @@ function Slider(){
     return(
         <Carousel>
         <Carousel.Item interval={1000}>
-          <img
-            className="d-block w-100"
+
+          <img 
+            className=" slider_img d-block w-100"
             src={Slide_1}
             alt="First slide"
           />
@@ -22,7 +24,7 @@ function Slider(){
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <img
-            className="d-block w-100"
+            className="slider_img d-block w-100"
             src={Slide_2} alt="Third slide"
           />
           <Carousel.Caption>
@@ -32,7 +34,7 @@ function Slider(){
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="slider_img d-block w-100"
             src={Slide_3}
             alt="Third slide"
           />
